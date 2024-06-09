@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "this is a todo app to be deployed and it will be my first private project to be deployed",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wanofi-israel/TODO.git"
+  },
+  "author": "Wanofi Israel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wanofi-israel/TODO/issues"
+  },
+  "homepage": "https://github.com/wanofi-israel/TODO#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1",
+    "nodemon": "^3.1.3"
+  }
+}
